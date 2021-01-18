@@ -1,0 +1,308 @@
+body {
+  min-height: 100vh;
+  padding: 40px;
+
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.main {
+  width: 960px;
+  height: 900px;
+  border: 1px solid #27ae60;
+  margin-top: 8px;
+}
+
+/* Вкладки */
+
+/* Style the tab */
+.tab {
+  overflow: hidden;
+  border: 1px solid #ccc;
+  background-color: #f1f1f1;
+}
+
+/* Style the buttons that are used to open the tab content */
+.tab button {
+  background-color: inherit;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+  background-color: #ddd;
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+  background-color: #ccc;
+}
+
+/* Style the tab content */
+.tabcontent {
+  display: none;
+  padding: 6px 12px;
+  border: 1px solid #ccc;
+  border-top: none;
+}
+
+/* Авторизация */
+
+/* Full-width input fields */
+input[type="text"],
+input[type="password"] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+/* Set a style for all buttons */
+.modal-content button {
+  background-color: #4caf50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+/* Extra styles for the cancel button */
+.cancelbtn {
+  width: auto;
+  padding: 10px 18px;
+  background-color: #f44336;
+}
+
+/* Center the image and position the close button */
+.imgcontainer {
+  text-align: center;
+  margin: 24px 0 12px 0;
+  position: relative;
+}
+
+img.avatar {
+  width: 40%;
+  border-radius: 50%;
+}
+
+.container {
+  padding: 16px;
+}
+
+span.psw {
+  float: right;
+  padding-top: 16px;
+}
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0, 0, 0); /* Fallback color */
+  background-color: rgba(0, 0, 0, 0.4); /* Black w/ opacity */
+  padding-top: 60px;
+}
+
+/* Modal Content/Box */
+.modal-content {
+  background-color: #fefefe;
+  margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+  border: 1px solid #888;
+  width: 80%; /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button (x) */
+.close {
+  position: absolute;
+  right: 25px;
+  top: 0;
+  color: #000;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: red;
+  cursor: pointer;
+}
+
+/* Add Zoom Animation */
+.animate {
+  -webkit-animation: animatezoom 0.6s;
+  animation: animatezoom 0.6s;
+}
+
+@-webkit-keyframes animatezoom {
+  from {
+    -webkit-transform: scale(0);
+  }
+  to {
+    -webkit-transform: scale(1);
+  }
+}
+
+@keyframes animatezoom {
+  from {
+    transform: scale(0);
+  }
+  to {
+    transform: scale(1);
+  }
+}
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+  span.psw {
+    display: block;
+    float: none;
+  }
+  .cancelbtn {
+    width: 100%;
+  }
+}
+
+.custom-select select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+.client_information button {
+  width: 80%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+.client_select select {
+  width: 80%;
+  padding: 10px 18px;
+  margin: 5px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+.save_data {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 0 auto;
+
+  color: white;
+  background-color: #27ae60;
+  border: 1px solid #27ae60;
+  box-sizing: border-box;
+}
+
+#Choose_country h3 {
+  width: 60px;
+}
+
+.container_country {
+  margin-top: 90px;
+  margin-left: 20px;
+  display: flex;
+  flex-direction: row;
+}
+
+#Choose_room select {
+  width: 30%;
+  background-color: #16a085;
+  border: 1px solid #16a085;
+  color: white;
+  font-size: 20px;
+}
+
+
+.date_container {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: row;
+}
+
+.date_end {
+  margin-left: 40px;
+}
+
+.date_arrived {
+  width: 120px !important;
+}
+
+#save_button {
+  margin-left: 50px;
+  margin-top: 15px;
+  background-color: #3498db;
+  border: 1px solid #3498db;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+#main_container {
+  display: flex;
+  flex-direction: row;
+}
+
+#administrator {
+  margin-right: 570px;
+}
+
+#auth_exit {
+  display: none;
+  background-color: #e74c3c;
+  border: 1px solid #e74c3c;
+  padding: 4px;
+  color: white;
+}
+
+#auth { 
+  width: auto;
+  background-color: #16a085;
+  border: 1px solid #16a085;
+  color: white;
+  padding: 8px;
+  margin-top: 25px;
+}
+
+#client_form-flag {
+  display: none;
+}
+
+#choose_country-flag {
+  display: none
+}
+
+#choose_hostel-flag {
+  display: none
+}
+
+#choose_room-flag {
+  display: none;
+}
