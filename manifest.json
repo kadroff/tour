@@ -10,7 +10,42 @@
         {
             "src": "/icon.png",
             "type": "image/png",
-            "sizes": "128"
+            "sizes": "72x72"
+        },
+        {
+            "src": "/icon.png",
+            "type": "image/png",
+            "sizes": "96x96"
+        },
+        {
+            "src": "/icon.png",
+            "type": "image/png",
+            "sizes": "128x128"
+        },
+        {
+            "src": "/icon.png",
+            "type": "image/png",
+            "sizes": "144x144"
+        },
+        {
+            "src": "/icon.png",
+            "type": "image/png",
+            "sizes": "152x152"
+        },
+        {
+            "src": "/icon.png",
+            "type": "image/png",
+            "sizes": "192x192"
+        },
+        {
+            "src": "/icon.png",
+            "type": "image/png",
+            "sizes": "384x384"
+        },
+        {
+            "src": "/icon.png",
+            "type": "image/png",
+            "sizes": "512x512"
         }
     ]
 }
